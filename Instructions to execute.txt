@@ -1,0 +1,16 @@
+*Requirements*
+You must have plantuml and Graphviz installed on your PC
+http://plantuml.com/graphvizdot.html
+
+Open command prompt
+1. Go to the path where you have placed the jar file
+Eg.cd C:\Users\ritika
+
+2. Type in:
+jar -jar umlparser "Path of the test case folder" "Path where the image file is to be generated along with the name of the PNG file to be generated"
+
+Eg. jar -jar umlparser R:\\uml-parser-test-5 R:\\output.png 
+
+* NOTE: The path should have only backslashes i.e. (\) *
+
+3. Open the folder where the image file is to be generated and open the image file
